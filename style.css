@@ -1,5 +1,17 @@
 #container{
     display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+#text{
+    width: 200px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+#write{
+    display: flex;
     flex-direction: row;
 }
 
