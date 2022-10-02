@@ -1,12 +1,11 @@
 #container{
     display: flex;
     flex-direction: column;
-    height: 300px;
 }
 
 #text{
-    width: 200px;
-    height: 48px;
+    width: 400px;
+    height: 98px;
     border: 1px solid black;
 }
 
@@ -16,32 +15,33 @@
 }
 
 #numpad{
-    width: 150px;
-    height: 250px;
+    width: 300px;
+    height: 100px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .num{
-    width: 50px;
-    height: 50px;
-}
-.num.nine{
     width: 100px;
+    height: 100px;
 }
+.num.zero{
+    width: 200px;
+}
+
 #functions{
     display: flex;
     flex-direction: column;
 }
 
 .function{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .function.add{
-    height: 100px;
+    height: 200px;
 }
 .function.operate{
-    height: 100px;
+    height: 200px;
 }

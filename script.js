@@ -1,7 +1,12 @@
 //calling code:
-let sum = 0;
-operate("ivide", 2, 100);
-console.log(sum);
+let sum = '';
+const numPad = document.querySelectorAll(".num");
+numPad.forEach((numPad) => {
+    numPad.addEventListener('click', () => {
+        sum += numPad.textContent;
+        console.log(sum);
+    });
+});
 //functions
 
 function add(num1, num2){
