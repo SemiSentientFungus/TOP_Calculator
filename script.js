@@ -82,6 +82,10 @@ equal.addEventListener("click", () =>{
     operate(sum, secondNum);
     display = sum;
     text.textContent = display;
+    sum = 0;
+    secondNum = 0;
+    opp = "";
+    
 })
 
 clear.addEventListener("click", () => {
@@ -96,18 +100,21 @@ clear.addEventListener("click", () => {
 let display = "";
 let sum = 0;
 let secondNum = 0;
-let opp = "";
+let opp = 
 //functions
 function addFunc(num1, num2){
     sum = num1 + num2;
+    sum = sum.toFixed(2);
 }
 
 function subtractFunc(num1, num2){
-    sum = num1 -num2;    
+    sum = num1 -num2;  
+    sum = sum.toFixed(2);  
 }
 
 function multiplyFunc(num1, num2){
-    sum = num1 * num2;    
+    sum = num1 * num2;
+    sum = sum.toFixed(2);    
 }
 
 function divideFunc(num1, num2){
@@ -116,6 +123,7 @@ function divideFunc(num1, num2){
     }
     else {
         sum = num1 / num2;
+        sum = sum.toFixed(2);
     }
 }
 
