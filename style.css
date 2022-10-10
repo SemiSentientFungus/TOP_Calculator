@@ -8,6 +8,17 @@
     height: 98px;
     border: 1px solid black;
 }
+.text{
+    height: 100px;
+    width: 400px;
+    font-size: 70px;
+    
+    
+}
+
+.text.calculations{
+    text-overflow: ellipsis;
+}
 
 #write{
     display: flex;
