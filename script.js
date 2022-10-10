@@ -96,6 +96,7 @@ clear.addEventListener("click", () => {
 let display = "";
 let sum = 0;
 let secondNum = 0;
+let opp = "";
 //functions
 function addFunc(num1, num2){
     sum = num1 + num2;
